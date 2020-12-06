@@ -7,7 +7,7 @@ This is an application for a user to be able to write, save and delete notes. Th
 
 
 ## Screenshot of Deployed Site
-![screenshot](.develop.public/assets/screenshot.PNG)
+![screenshot](./public/assets/screenshot.PNG)
 
 
 ## Link to Deployed Site
