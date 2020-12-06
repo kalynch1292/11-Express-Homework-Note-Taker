@@ -30,7 +30,7 @@ app.get("*", function(req, res) {
 
 
 app.post("/api/notes", function (req, res) {
-    var notesSaved = JSON.parse(fs.readFileSync(""./db/db.json", "utf8"));
+    var notesSaved = JSON.parse(fs.readFileSync("./db/db.json","utf8"));
     var noteName= req.body;
     var ID = (notesSaved.length).tostring();
     noteName.id = ID;
